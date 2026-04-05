@@ -9,7 +9,7 @@ ss="""8086 X86
 ARM7 ARM
 ARM8 ARM"""
 
-def uppers(s):
+def lowers(s):
     ss=""
     for a in s:
          if ord(a)<=ord('Z') and ord(a)>=ord('A'):
@@ -19,5 +19,5 @@ def uppers(s):
              ss=ss+a
          
     return ss
-l=uppers(ss)
+l=lowers(ss)
 print(l)
